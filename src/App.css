@@ -1,0 +1,36 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the container takes full viewport height */
+  overflow: hidden; /* Prevent content from overflowing */
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Ensure the background covers full viewport width */
+  height: 100vh; /* Ensure the background covers full viewport height */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  z-index: -1; /* Move the background image behind other content */
+}
+
+body {
+  font-family: monospace;
+  color:beige;
+}
+
+.blog-section {
+  width: 20%; 
+  height: 80%; 
+  background-color: #fff; 
+  padding: 20px; 
+  position: absolute;
+  right: 10%; 
+  top: 10%; 
+  overflow-y: auto;
+  color: black;
+  border-radius: 2%;
+}
